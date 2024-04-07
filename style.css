@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 30, 30);
+    font-family: "Caladea", serif;;
+}
+
+.titulo {
+    font-size: 35px;
+    color: #fefebc;
+    font-family: "Borel", cursive;
+    margin-right: 80px;
+    padding-bottom: 200px;
+}
+
+.Linha {
+    display: flex;
+}
+
+.Calculadora {
+    background-color: #fefebc;
+    width: 285px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    border:none;
+    margin: 2px;
+    border-radius: 100px;
+    background-color: #daf3ee;
+    font-size: large;
+}
+
+.operador {
+ background-color: #ffcbdb;
+ color:  #fd00a9;
+}
+
+button:hover{
+    background-color: #9cd5ca;
+}
+
+.operador:hover{
+    background: #ffb6c1;
+}
+
+
+.igual {
+    background-color: #87CEEB;
+    color: #1d00a3;
+}
+
+.igual:hover {
+    background-color: #1E90FF;
+}
+
+
+.display {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 70px;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: translateY(3px);
+}
+
+.assinatura {
+    text-align: right;
+    padding-top: 10px;
+    background: linear-gradient(to right, #ffb6c1, #87CEEB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Borel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+

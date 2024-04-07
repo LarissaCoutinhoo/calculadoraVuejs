@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titulo">Calculadora <br> Online</div>
+    <div id="app">
+        <div class="Calculadora">
+            <div class="display">
+                {{ display }}
+            </div>
+            <div class="Linha">
+                <button class="operador" @click="LidarBotao('C')">C</button>
+            </div>
+            <div class="Linha">
+                <button @click="LidarBotao('7')">7</button>
+                <button @click="LidarBotao('8')">8</button>
+                <button @click="LidarBotao('9')">9</button>
+                <button class="operador" @click="LidarBotao('/')">/</button>
+            </div>
+            <div class="Linha">
+                <button @click="LidarBotao('4')">4</button>
+                <button @click="LidarBotao('5')">5</button>
+                <button @click="LidarBotao('6')">6</button>
+                <button class="operador" @click="LidarBotao('*')">x</button>
+            </div>
+            <div class="Linha">
+                <button @click="LidarBotao('1')">1</button>
+                <button @click="LidarBotao('2')">2</button>
+                <button @click="LidarBotao('3')">3</button>
+                <button class="operador" @click="LidarBotao('-')">-</button>
+            </div>
+            <div class="Linha">
+                <button class="decimal" @click="LidarBotao('.')">.</button>
+                <button @click="LidarBotao('0')">0</button>
+                <button class="igual" @click="LidarBotao('=')">=</button>
+                <button class="operador" @click="LidarBotao('+')">+</button>
+            </div>
+        </div>
+        <div class="assinatura">por: larissacoutinho</div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
