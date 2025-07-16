@@ -5,4 +5,4 @@ Esta é uma atividade de uma calculadora desenvolvida utilizando Vue.js. A calcu
 A lógica que permite os cálculos utiliza um modelo de dados para rastrear o número atual, o número anterior e o operador selecionado. Os métodos são responsáveis por manipular esses dados e realizar as operações matemáticas correspondentes.
 
 ### Acesse a calculadora online:
-[Calculadora](https://larissacoutinhoo.github.io/calculadoraBasicaVuejs/)
+[Calculadora](https://larissacoutinhoo.github.io/calculadoraVuejs/)
